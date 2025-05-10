@@ -1,0 +1,10 @@
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff; color: #333; text-align: center; }
+header { background: #0c7cae; color: white; padding: 50px 20px; }
+header .btn { padding: 12px 20px; margin: 10px; background: #f9f9f9; color: #0c7cae; text-decoration: none; border-radius: 5px; font-weight: bold; }
+header .btn-secondary { background: transparent; border: 2px solid #fff; color: #fff; }
+section { padding: 40px 20px; }
+.form-section input, .form-section textarea { display: block; width: 90%; max-width: 500px; margin: 10px auto; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+.form-section button { padding: 10px 15px; background: #0c7cae; color: white; border: none; cursor: pointer; border-radius: 5px; }
+footer { background: #eee; padding: 20px; margin-top: 20px; }
+@media (max-width: 600px) { header, section, footer { padding: 20px 10px; } }
